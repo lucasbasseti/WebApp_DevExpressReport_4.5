@@ -14,6 +14,30 @@ namespace WebApp_DevExpressReport_4._5.Controllers
 
         public ActionResult Report()
         {
+            // DevExpress.Net.17.2.7 é compativel como .Net Framework 4.5
+            //
+            // DevExpress.XtraReports.UI.XtraReport -> Dependencias:
+            //   Library/DevExpress.Charts.v17.2.Core.dll
+            //   Library/DevExpress.Data.v17.2.dll
+            //   Library/DevExpress.DataAccess.v17.2.dll
+            //   Library/DevExpress.Office.v17.2.Core.dll
+            //   Library/DevExpress.Pdf.v17.2.Core.dll
+            //   Library/DevExpress.PivotGrid.v17.2.Core.dll
+            //   Library/DevExpress.Printing.v17.2.Core.dll
+            //   Library/DevExpress.RichEdit.v17.2.Core.dll
+            //   Library/DevExpress.RichEdit.v17.2.Export.dll
+            //   Library/DevExpress.Sparkline.v17.2.Core.dll
+            //   Library/DevExpress.Web.ASPxThemes.v17.2.dll
+            //   Library/DevExpress.Web.Mvc5.v17.2.dll
+            //   Library/DevExpress.Web.Resources.v17.2.dll
+            //   Library/DevExpress.Web.v17.2.dll
+            //   Library/DevExpress.Xpo.v17.2.dll
+            //   Library/DevExpress.XtraCharts.v17.2.dll
+            //   Library/DevExpress.XtraCharts.v17.2.Web.dll
+            //   Library/DevExpress.XtraGauges.v17.2.Core.dll
+            //   Library/DevExpress.XtraReports.v17.2.dll
+            //   Library/DevExpress.XtraReports.v17.2.Web.dll
+
             // Criando o objeto XtraReport, que representa o relatório.
             DevExpress.XtraReports.UI.XtraReport report = new DevExpress.XtraReports.UI.XtraReport();
 
