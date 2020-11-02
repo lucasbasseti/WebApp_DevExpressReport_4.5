@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="17.2.7.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" SnapGridSize="25" ReportUnit="TenthsOfAMillimeter" Margins="51, 51, 122, 254" PaperKind="A4" PageWidth="2100" PageHeight="2970" Version="17.2" Dpi="254">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="122" Dpi="254" />
+    <Item2 Ref="2" ControlType="DetailBand" Name="detailBand1" HeightF="64" Dpi="254">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRTable" Name="table2" SizeF="1651,63.5" LocationFloat="0, 0" Dpi="254" OddStyleName="DetailData3_Odd">
+          <Rows>
+            <Item1 Ref="4" ControlType="XRTableRow" Name="tableRow2" Weight="11.5" Dpi="254">
+              <Cells>
+                <Item1 Ref="5" ControlType="XRTableCell" Name="tableCell5" Weight="0.14772727379432091" Text="tableCell5" TextAlignment="MiddleRight" Dpi="254" StyleName="DetailData3" Padding="5,5,0,0,254">
+                  <ExpressionBindings>
+                    <Item1 Ref="6" Expression="[ID]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="7" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="8" ControlType="XRTableCell" Name="tableCell6" Weight="0.38068180964543269" Text="tableCell6" Dpi="254" StyleName="DetailData3" Padding="5,5,0,0,254">
+                  <ExpressionBindings>
+                    <Item1 Ref="9" Expression="[Descricao]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item2>
+                <Item3 Ref="10" ControlType="XRTableCell" Name="tableCell7" Weight="0.2613636427659255" Text="tableCell7" Dpi="254" StyleName="DetailData3" Padding="5,5,0,0,254">
+                  <ExpressionBindings>
+                    <Item1 Ref="11" Expression="[Marca]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item3>
+                <Item4 Ref="12" ControlType="XRTableCell" Name="tableCell8" Weight="0.21022723858173076" Text="tableCell8" Dpi="254" StyleName="DetailData3" Padding="5,5,0,0,254">
+                  <ExpressionBindings>
+                    <Item1 Ref="13" Expression="[Foto]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item4>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="14" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="254" Dpi="254">
+      <Controls>
+        <Item1 Ref="15" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" SizeF="795.02,58.4200058" LocationFloat="15.24, 15.24" Dpi="254" StyleName="PageInfo" Padding="5,5,0,0,254" />
+        <Item2 Ref="16" ControlType="XRPageInfo" Name="pageInfo2" TextFormatString="Page {0} of {1}" TextAlignment="TopRight" SizeF="795.02,58.4200058" LocationFloat="840.74, 15.24" Dpi="254" StyleName="PageInfo" Padding="5,5,0,0,254" />
+      </Controls>
+    </Item3>
+    <Item4 Ref="17" ControlType="ReportHeaderBand" Name="reportHeaderBand1" HeightF="152" Dpi="254">
+      <Controls>
+        <Item1 Ref="18" ControlType="XRLabel" Name="label1" Text="Report Title" SizeF="1620.52,66.04" LocationFloat="15.24, 15.24" Dpi="254" StyleName="Title" Padding="5,5,0,0,254" />
+      </Controls>
+    </Item4>
+    <Item5 Ref="19" ControlType="GroupHeaderBand" Name="groupHeaderBand1" GroupUnion="WithFirstDetail" HeightF="122" Dpi="254">
+      <Controls>
+        <Item1 Ref="20" ControlType="XRPanel" Name="panel1" SizeF="1651,121.92" LocationFloat="0, 0" Dpi="254" StyleName="DetailCaptionBackground3">
+          <Controls>
+            <Item1 Ref="21" ControlType="XRTable" Name="table1" SizeF="1651,71.1199951" LocationFloat="0, 50.8" Dpi="254">
+              <Rows>
+                <Item1 Ref="22" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="254">
+                  <Cells>
+                    <Item1 Ref="23" ControlType="XRTableCell" Name="tableCell1" Weight="0.14772727379432091" Text="ID" TextAlignment="MiddleRight" Dpi="254" StyleName="DetailCaption3" Padding="5,5,0,0,254">
+                      <StylePriority Ref="24" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="25" ControlType="XRTableCell" Name="tableCell2" Weight="0.38068180964543269" Text="Descricao" Dpi="254" StyleName="DetailCaption3" Padding="5,5,0,0,254" />
+                    <Item3 Ref="26" ControlType="XRTableCell" Name="tableCell3" Weight="0.2613636427659255" Text="Marca" Dpi="254" StyleName="DetailCaption3" Padding="5,5,0,0,254" />
+                    <Item4 Ref="27" ControlType="XRTableCell" Name="tableCell4" Weight="0.21022726205679088" Text="Foto" Dpi="254" StyleName="DetailCaption3" Padding="5,5,0,0,254" />
+                  </Cells>
+                </Item1>
+              </Rows>
+            </Item1>
+          </Controls>
+        </Item1>
+      </Controls>
+    </Item5>
+    <Item6 Ref="28" ControlType="GroupHeaderBand" Name="GroupHeader1" Level="1" HeightF="254" Dpi="254" />
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="29" Name="Title" BorderStyle="Inset" Font="Tahoma, 14pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="30" Name="DetailCaption3" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item3 Ref="31" Name="DetailData3" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Tahoma, 8pt" ForeColor="Black" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item4 Ref="32" Name="DetailData3_Odd" BorderStyle="Inset" Padding="15,15,0,0,254" Font="Tahoma, 8pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="33" Name="DetailCaptionBackground3" BorderStyle="Inset" BackColor="Transparent" BorderColor="255,206,206,206" Sides="Top" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="2" />
+    <Item6 Ref="34" Name="PageInfo" BorderStyle="Inset" Padding="5,5,0,0,254" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+</XtraReportsLayoutSerializer>

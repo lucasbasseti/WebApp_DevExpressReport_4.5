@@ -1,0 +1,18 @@
+﻿@{
+    Layout = null;
+}
+@Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report }
+)
+@Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Report }
+)
+@Html.DevExpress().WebDocumentViewer(settings =>
+{
+    settings.Name = "WebDocumentViewer1";
+    settings.ClientSideEvents.Init = "function(s,e){  s.GetPreviewModel().reportPreview.zoom(1);}";
+}).Bind((XtraReport)ViewData["Report1"]).GetHtml()
